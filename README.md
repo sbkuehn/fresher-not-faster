@@ -1,6 +1,6 @@
 # Fresher Is Not Faster
 
-Companion code for the article **"Fresher Is Not Faster: Why Cloud Costs Refuse to Show Up in Real Time."**
+Companion code for the article **"Fresher Is Not Faster: Why Cloud Costs Refuse to Show Up in Real Time!"**
 
 | | |
 |---|---|
