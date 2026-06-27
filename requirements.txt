@@ -1,0 +1,19 @@
+# ============================================================
+# Fresher Is Not Faster  ::  Python dependencies
+# Author : Shannon Eldridge-Kuehn
+# Updated: 2026-06-26
+# ============================================================
+
+# Path A: the lagged read
+boto3>=1.34                  # AWS Cost Explorer
+azure-identity>=1.16         # Azure auth (DefaultAzureCredential)
+requests>=2.31               # Azure Cost Management Query API (REST)
+google-cloud-bigquery>=3.20  # GCP billing export queries
+
+# Path B: the live tab
+anthropic>=0.40              # example LLM client (swap for your provider)
+opentelemetry-api>=1.25
+opentelemetry-sdk>=1.25
+
+# Optional: ship metrics to Azure Application Insights
+# azure-monitor-opentelemetry>=1.6
